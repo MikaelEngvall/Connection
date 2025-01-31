@@ -1,0 +1,42 @@
+body {  
+    font-family: Arial, sans-serif;  
+    text-align: center;  
+    margin-top: 50px;  
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+#messages {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.message.right {
+    text-align: right;
+    background-color: #e3f2fd;
+    margin-left: 20%;
+}
+
+.message.left {
+    text-align: left;
+    background-color: #f0f0f0;
+    margin-right: 20%;
+    color: #666;
+}
+
+.message.notification {
+    background-color: #e8f5e9;
+    font-style: italic;
+}
